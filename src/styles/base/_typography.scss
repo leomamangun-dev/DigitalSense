@@ -1,0 +1,15 @@
+//main: ../main.scss
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-size: 14px;
+  font-family: $text-font-stack;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: $font-monserrat-regular;
+}

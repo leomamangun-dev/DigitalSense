@@ -1,0 +1,49 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+$font-opensans-light: 'Open Sans Light';
+$font-opensans: 'Open Sans';
+$font-opensans-bold: 'Open Sans Bold';
+
+$font-monserrat-regular: 'Monserrat Regular';
+$font-monserrat-bold: 'Monserrat Bold';
+
+/// @type List
+$text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #3C3D45 !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #0d384d !default;
+$mid-blue: #5583a1 !default;
+$btn-blue: #056684 !default;
+$dark-blue: #061626 !default;
+
+/// Light grey
+/// @type Color
+$light-grey: #EDEDED !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: #72777d !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #3c3d45 !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;

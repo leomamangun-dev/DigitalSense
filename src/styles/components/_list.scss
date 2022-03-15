@@ -1,0 +1,50 @@
+.checked-list {
+
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0 0 0 26px;
+    
+    color: #fff;
+
+    li {
+        position: relative;
+    }
+
+    &.white {
+
+        li {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: -22px;
+                top: 3px;
+                height: 15px;
+                width: 15px;
+                background-image: url('../../assets/images/check-white.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+
+    }
+
+    .brand {
+
+        li {
+            &:before {
+                content: '';
+                display: block;
+                height: 30px;
+                width: 30px;
+                background-image: url('../../assets/images/check-brand.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+
+    }
+}
+
