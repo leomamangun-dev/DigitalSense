@@ -1,10 +1,7 @@
 .checked-list {
-
     list-style: none;
     margin-bottom: 20px;
-    padding: 0 0 0 26px;
-    
-    color: #fff;
+    padding: 0 0 0 26px; 
 
     li {
         position: relative;
@@ -30,15 +27,18 @@
 
     }
 
-    .brand {
+    &.brand {
 
         li {
             &:before {
                 content: '';
                 display: block;
-                height: 30px;
-                width: 30px;
-                background-image: url('../../assets/images/check-brand.png');
+                position: absolute;
+                left: -22px;
+                top: 3px;
+                height: 13px;
+                width: 13px;
+                background-image: url('../../assets/images/checked-brand.png');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;

@@ -5,15 +5,347 @@
 // -----------------------------------------------------------------------------
 
 .home {
- 
+  padding-top: 113px;
+
   .banner {
-    padding: 50px 0;
+    // padding: 50px 0;
     background-image: url('../../assets/images/background_banner.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (max-width: 991px) {
+      background-color: #184155;
+      // background-image: none;
+    }
+
+    .container {
+      max-width: 1270px;
+      background-image: url('../../assets/images/banner_image.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: auto;
+
+      @media screen and (max-width: 991px) {
+        background-image: none;
+      }
+    }
+
+    .title {
+      color: #fff;
+
+      @media screen and (max-width: 991px) {
+        text-align: center;
+      }
+
+      .light {
+        display: block;
+      }
+    }
+
+    .checked-list {
+      color: #fff;
+    }
+
+    .content-area {
+      padding: 58px 0;
+      margin-left: 6vw;
+      max-width: 420px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+
+      @media screen and (max-width: 991px) {
+        max-width: 100%;
+        align-items: center;
+        margin-left: 0;
+      }
+    }
+
+    .checked-list {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .image-holder {
+      position: relative;
+      padding-top: 86%;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+      }
+    }
   }
 
 
+
+
+
+  .platform {
+    padding: 50px 0 70px;
+
+    .title {
+      padding-bottom: 40px;
+      margin: 0 auto;
+      max-width: 700px;
+      text-align: center;
+    }
+
+    .text {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+      @media screen and (max-width: 991px) {
+        padding-bottom: 20px;
+        text-align: center;
+      }
+    }
+  }
+
+
+  .tips {
+   
+    background-color: $mid-blue;
+
+    .content-holder {
+      margin-right: 40px;
+      max-width: 550px;
+
+      @media screen and (max-width: 1199px) {
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      @media screen and (max-width: 991px) {
+        margin: 0 auto;
+      }
+    }
+
+    .tips-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      padding: 50px 0 80px;
+      background-image: url('../../assets/images/ds-book-small.png');
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-size: auto;
+
+      @media screen and (max-width: 991px) {
+        display: block;
+        padding-top: 0;
+        background-image: none;
+      }
+
+      .mobile-image {
+        display: none;
+
+        @media screen and (max-width: 991px) {
+          display: block;
+          padding-bottom: 30px;
+          padding-left: 15px;
+          padding-right: 15px;
+          text-align: center;
+        }
+      }
+    }
+
+    .title {
+      margin-bottom: 18px;
+      max-width: 450px;
+      color: #fff;
+
+      .light {
+        display: block;
+      }
+
+      @media screen and (max-width: 991px) {
+        margin: 0 auto 18px;
+        text-align: center;
+      }
+    }
+
+    .description {
+      color: #fff;
+
+      @media screen and (max-width: 991px) {
+        text-align: center;
+      }
+    }
+
+    .checked-list {
+      padding-bottom: 15px;
+      color: #fff;
+    }
+
+    .btn-holder {
+      @media screen and (max-width: 991px) {
+        text-align: center;
+      }
+    }
+  }
+
+  .power {
+    padding: 70px 0;
+
+    .container {
+      @media (min-width: 1200px) {
+        max-width: 1130px;
+      }
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .description {
+      padding-bottom: 15px;
+      text-align: center;
+      font-size: 19px;
+    }
+
+    .icon-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .item {
+        width: 20%;
+        padding: 0 10px;
+        text-align: center;
+        
+        &:first-child {
+          padding-left: 0;
+        }
+
+        &:last-child {
+          padding-right: 0;
+        }
+
+        @media screen and (max-width: 991px) {
+          width: 50%;
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 100%;
+        }
+
+        img {
+          margin: 0 auto;
+          max-width: 75%;
+        }
+
+        .item-title {
+          margin-top: 25px;
+          font-size: 18px;
+        }
+        
+      }
+    }
+  }
+
+  .support {
+    padding: 70px 0 50px;
+    background-color: #f6f6f8;
+
+    .container {
+      @media (min-width: 1200px) {
+        max-width: 1130px;
+      }
+    }
+
+    .title {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .description {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 19px;
+    }
+
+    .inner-row {
+      display: flex;
+      padding-bottom: 30px;
+
+      @media screen and (max-width: 767px) {
+        display: block;
+      }
+
+      .image {
+        width: 75px;
+
+        @media screen and (max-width: 767px) {
+          margin: 0 auto;
+        }
+      }
+
+      .text {
+        padding-left: 30px;
+
+        @media screen and (max-width: 767px) {
+          padding-left: 0;
+          text-align: center;
+        }
+      }
+
+      .inner-title {
+        margin-bottom: 10px;
+        font-size: 19px;
+
+        @media screen and (max-width: 767px) {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+
+  .book {
+    padding: 70px 0;
+    background-color: $brand-color;
+
+    .container {
+      @media (min-width: 1200px) {
+        max-width: 1130px;
+      }
+    }
+
+    .text {
+      color: #fff;
+      font-size: 24px;
+      line-height: 34px;
+
+      span {
+        display: block;
+        font-family: $font-monserrat-bold;
+      }
+
+      @media screen and (max-width: 991px) {
+        padding-bottom: 30px;
+        text-align: center;
+      }
+    }
+
+    .btn-holder {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      text-align: right;
+      
+      @media screen and (max-width: 991px) {
+        justify-content: center;
+      }
+    }
+  }
 }
 

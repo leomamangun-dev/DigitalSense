@@ -88,3 +88,10 @@ input[type="text"] {
     outline: 0;
   }
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1035px;
+  }
+}
+

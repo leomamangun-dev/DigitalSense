@@ -10,6 +10,16 @@ body {
   line-height: 25px;
 }
 
-h1 {
-  font-family: $font-monserrat-regular;
+.title {
+  font-family: $font-monserrat-bold;
+  font-size: 36px;
+  color: $dark-grey;
+
+  .light {
+    font-family: $font-monserrat-regular;
+  }
+  
+  .mid-blue {
+    color: $mid-blue;
+  }
 }

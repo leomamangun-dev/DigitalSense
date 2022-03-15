@@ -11,15 +11,20 @@
     font-weight: 600;
     color: #fff;
     font-size: 14px;
-    background-color: #056684;
+    background-color: $btn-blue;
     border-radius: 50px;
     overflow: hidden;
-}
+    font-family:  $font-opensans-bold;
 
-.btn-brand:hover,
-.btn-brand:focus,
-.btn-brand:active {
-    color: #fff;
+    &:hover {
+        background-color: $hover-blue;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+    }
 }
 
 .lined {

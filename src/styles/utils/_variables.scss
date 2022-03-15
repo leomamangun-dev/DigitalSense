@@ -21,7 +21,7 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 /// Copy text color
 /// @type Color
-$text-color: #3C3D45 !default;
+$text-color: #72777d !default;
 
 /// Main brand color
 /// @type Color
@@ -29,6 +29,8 @@ $brand-color: #0d384d !default;
 $mid-blue: #5583a1 !default;
 $btn-blue: #056684 !default;
 $dark-blue: #061626 !default;
+
+$hover-blue: #0b91ba !default;
 
 /// Light grey
 /// @type Color
