@@ -33,6 +33,13 @@ AppName.Modules.ThemeModule = (function () {
             $(".navbar").removeClass("active");
         }
       });
+
+
+      $('.btn-download').click(function(){
+        setTimeout(function() {
+            window.location.href='/thank-you.html';
+        }, 1000);
+     })
     
   };
 

@@ -93,13 +93,14 @@
         padding: 70px 0;
         // background-color: $brand-color;
     
-        .container {
-          @media (min-width: 1200px) {
-            max-width: 1130px;
-          }
-        }
+        // .container {
+        //   @media (min-width: 1200px) {
+        //     max-width: 1130px;
+        //   }
+        // }
     
         .text {
+          max-width: 600px;
           color: #3c3d45;
           font-size: 24px;
           line-height: 34px;
