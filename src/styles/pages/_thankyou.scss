@@ -1,0 +1,130 @@
+
+
+.thankyou {
+    padding-top: 113px;
+
+    .banner {
+        // padding: 50px 0;
+        background-image: url('../assets/images/background_banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        @media screen and (max-width: 991px) {
+          background-color: #184155;
+        }
+
+        .description {
+            padding-bottom: 10px;
+            color: #fff;
+            
+            @media screen and (max-width: 991px) {
+                text-align: center;                
+            }
+        }
+    
+        .container {
+          max-width: 1270px;
+          background-image: url('../assets/images/banner_image.png');
+          background-repeat: no-repeat;
+          background-position: right;
+          background-size: auto;
+    
+          @media screen and (max-width: 991px) {
+            background-image: none;
+          }
+        }
+    
+        .title {
+          padding-bottom: 15px;
+          color: #fff;
+    
+          @media screen and (max-width: 991px) {
+            text-align: center;
+          }
+    
+          .light {
+            display: block;
+          }
+        }
+    
+        .checked-list {
+          color: #fff;
+        }
+    
+        .content-area {
+          padding: 140px 0;
+          margin-left: 6vw;
+          max-width: 420px;
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: center;
+    
+          @media screen and (max-width: 991px) {
+            padding: 70px 0;
+            max-width: 100%;
+            align-items: center;
+            margin-left: 0;
+          }
+        }
+    
+        .checked-list {
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+    
+        .image-holder {
+          position: relative;
+          padding-top: 86%;
+    
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: auto;
+            height: 100%;
+          }
+        }
+      }
+
+
+      .book {
+        padding: 70px 0;
+        // background-color: $brand-color;
+    
+        .container {
+          @media (min-width: 1200px) {
+            max-width: 1130px;
+          }
+        }
+    
+        .text {
+          color: #3c3d45;
+          font-size: 24px;
+          line-height: 34px;
+    
+          span {
+            display: block;
+            font-family: $font-monserrat-bold;
+          }
+    
+          @media screen and (max-width: 991px) {
+            padding-bottom: 30px;
+            text-align: center;
+          }
+        }
+    
+        .btn-holder {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          text-align: right;
+          
+          @media screen and (max-width: 991px) {
+            justify-content: center;
+          }
+        }
+      }
+
+}
